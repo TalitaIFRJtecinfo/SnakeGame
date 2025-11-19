@@ -11,8 +11,11 @@ const cobra = {
     },
     mover(){
       if (this.direcao == "right")this.x++;
+
       if (this.direcao == "left")this.x--;
+
       if (this.direcao == "down")this.y++;
+      
       if (this.direcao == "up")this.y--;
     }
 
