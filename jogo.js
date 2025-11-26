@@ -3,8 +3,10 @@ function jogar(){
     placar.desenhar();
     cobra.desenhar();
     cobra.mover();
+    maca.desenhar();
     requestAnimationFrame(jogar);
 }
+let maca = new Maca(20);
 jogar();
 document.addEventListener("keydown",(evento)=>{
 if (evento.key== "8") cobra.direcao="up";

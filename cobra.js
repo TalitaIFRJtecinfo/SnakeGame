@@ -17,6 +17,18 @@ const cobra = {
       if (this.direcao == "down")this.y++;
       
       if (this.direcao == "up")this.y--;
-    }
+      
+      if((this.x >= tela.largura - this.tamanho) || (this.x <= 0)) 
+      this.morrer();
 
+      if((this.y >= tela.altura + placar.altura - this.tamanho) || (this.y <= placar.altura)) 
+      this.morrer();
+
+      
+    },
+morrer(){
+  this.vida--;
+  this.x=400;
+  this.y=260;
+}
 }

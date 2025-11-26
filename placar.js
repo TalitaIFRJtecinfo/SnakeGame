@@ -17,5 +17,9 @@ const placar = {
         cCtx.textAlign = 'left';
         cCtx.textBaseline = 'bottom';
         cCtx.fillText(this.pontuacao + " pts",10,50);
+        cCtx.textAlign = 'right';
+        cCtx.textBaseline = 'bottom';
+        cCtx.fillText(cobra.vida + " vida",790,50);
+
     }
 }
