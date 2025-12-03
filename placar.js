@@ -1,8 +1,8 @@
 const placar = {
     largura: 800,
     altura: 60,
-    corFundo:"grey",
-    corTexto:"black",
+    corFundo:"black",
+    corTexto:"white",
     pontuacao:0,
     nomeJogo: "IFRJ Snake",
 
